@@ -6,7 +6,7 @@ const passport = require('./auth');
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
-const PORT= process.env.PORT || 3001;
+const PORT= process.env.PORT || 10000;
 
 const menuRouter = require('./routers/menuRouter');
 const personRouter = require('./routers/personRouter');
